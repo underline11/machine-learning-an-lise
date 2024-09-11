@@ -1,0 +1,54 @@
+# Classificação de Reclamações de Consumidores
+
+## Objetivo
+
+Este projeto visa analisar um conjunto de dados contendo reclamações de consumidores e construir um modelo de classificação de texto para categorizá-las em diferentes tipos de produtos. O sistema desenvolvido é capaz de classificar automaticamente novas reclamações com base em seu conteúdo textual, ajudando empresas a automatizar o processo de triagem e categorização de reclamações.
+
+## Conjunto de Dados
+
+O conjunto de dados utilizado contém reclamações de consumidores, onde cada entrada inclui:
+- Texto descritivo da reclamação
+- Categoria do produto associada
+
+Os dados são fornecidos em um arquivo CSV acessível através do Google Drive.
+
+## Técnicas Utilizadas
+
+- **Processamento de Linguagem Natural (NLP)**: Para o pré-processamento dos dados, que inclui a remoção de valores ausentes e limpeza de texto.
+- **Aprendizado de Máquina**: Utilização do algoritmo Naive Bayes para treinamento do modelo de classificação.
+
+## Pipeline do Projeto
+
+1. **Pré-processamento de Dados**:
+   - Remoção de valores ausentes
+   - Limpeza de texto (remoção de pontuação, stop words, etc.)
+
+2. **Divisão dos Dados**:
+   - Divisão em conjuntos de treino e teste
+
+3. **Treinamento do Modelo**:
+   - Treinamento do modelo de classificação utilizando o algoritmo Naive Bayes
+
+4. **Avaliação do Modelo**:
+   - Acurácia
+   - Matriz de Confusão
+   - Relatório de Classificação
+
+5. **Análise Adicional**:
+   - Palavras mais importantes para cada categoria
+   - Distribuição das predições do modelo
+   - Capacidade de generalização para novos dados
+
+## Resultados Esperados
+
+- Acurácia do modelo de classificação
+- Desempenho do modelo para diferentes categorias de produtos
+- Distribuição das predições do modelo em relação às categorias
+- Palavras mais importantes para a classificação de cada categoria
+- Avaliação da capacidade de generalização do modelo para novos dados
+
+## Executando o Projeto
+
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/usuario/repo.git
