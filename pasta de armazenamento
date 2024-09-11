@@ -1,0 +1,19 @@
+nome-do-repositorio/
+│
+├── data/
+│   ├── raw/
+│   │   └── dados_reclamacoes.csv
+│   ├── processed/
+│   │   └── dados_reclamacoes_limpos.csv
+│   └── external/
+│       └── fonte_externa.csv
+│
+├── notebooks/
+│   └── analise_exploratoria.ipynb
+│
+├── src/
+│   └── main.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
