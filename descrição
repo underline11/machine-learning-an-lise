@@ -1,0 +1,37 @@
+Descrição do Projeto
+O projeto Classificação de Reclamações de Consumidores é uma solução automatizada para a triagem e categorização de reclamações de consumidores com base em seu conteúdo textual. O objetivo é desenvolver um sistema que possa analisar reclamações e classificar automaticamente cada uma delas em uma categoria de produto específica. Isso visa ajudar empresas a gerenciar e processar reclamações de maneira mais eficiente e precisa.
+
+Problema a Ser Resolvido
+Empresas frequentemente recebem um grande volume de reclamações de consumidores, que podem ser desafiadoras de categorizar manualmente. A triagem manual pode ser demorada e propensa a erros. O projeto busca automatizar este processo usando técnicas de processamento de linguagem natural (NLP) e aprendizado de máquina, permitindo que as empresas classifiquem as reclamações de forma rápida e eficiente.
+
+Conjunto de Dados
+O projeto utiliza um conjunto de dados contendo reclamações de consumidores, onde cada entrada inclui:
+
+Texto Descritivo: Descrição textual da reclamação.
+Categoria do Produto: Categoria associada à reclamação.
+Os dados estão disponíveis em um arquivo CSV acessível através do Google Drive.
+
+Abordagem Metodológica
+Pré-processamento de Dados:
+
+Remoção de valores ausentes e limpeza do texto (remoção de pontuação, stop words, etc.).
+Divisão dos Dados:
+
+Separação dos dados em conjuntos de treino e teste para avaliar o desempenho do modelo.
+Modelo de Classificação:
+
+Treinamento de um modelo de classificação de texto utilizando o algoritmo Naive Bayes.
+Avaliação do Modelo:
+
+Medição da acurácia do modelo, análise da matriz de confusão e geração de um relatório de classificação para avaliar o desempenho do modelo.
+Análise Adicional:
+
+Identificação das palavras mais importantes para a classificação de cada categoria.
+Análise da distribuição das predições do modelo em relação às categorias.
+Avaliação da capacidade de generalização do modelo para novos dados.
+Resultados Esperados
+Acurácia: Percentual de predições corretas realizadas pelo modelo.
+Desempenho por Categoria: Avaliação do desempenho do modelo para diferentes categorias de produtos.
+Distribuição das Predições: Análise da distribuição das predições do modelo em relação às categorias de produtos.
+Palavras Importantes: Identificação das palavras mais significativas para a classificação de cada categoria.
+Capacidade de Generalização: Avaliação de como o modelo se comporta ao lidar com novos dados.
