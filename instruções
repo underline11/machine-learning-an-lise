@@ -1,0 +1,46 @@
+Instruções de Instalação e Uso
+Requisitos
+Antes de iniciar, certifique-se de que você possui os seguintes itens instalados em seu sistema:
+
+Python 3.7 ou superior
+pip (gerenciador de pacotes do Python)
+Passo 1: Clonar o Repositório
+Clone o repositório para o seu ambiente local usando o Git:
+git clone https://github.com/usuario/repo.git
+Substitua https://github.com/usuario/repo.git pelo URL do seu repositório.
+
+Passo 2: Navegar para o Diretório do Projeto
+Acesse o diretório do projeto clonado:
+cd nome-do-repositorio
+Passo 3: Criar um Ambiente Virtual (Opcional, mas Recomendado)
+Crie um ambiente virtual para isolar as dependências do projeto:
+python -m venv venv
+Ative o ambiente virtual:
+
+No Windows:
+venv\Scripts\activate
+No macOS e Linux:
+source venv/bin/activate
+Passo 4: Instalar Dependências
+Instale as dependências do projeto listadas no arquivo requirements.txt:
+pip install -r requirements.txt
+Passo 5: Preparar os Dados
+Certifique-se de que o arquivo CSV com o conjunto de dados esteja disponível e no local correto. O arquivo deve ser acessível conforme especificado no projeto, normalmente através de um link do Google Drive. Baixe o arquivo e coloque-o no diretório de dados do projeto ou atualize o caminho no código conforme necessário.
+
+Passo 6: Executar o Script
+Execute o script principal para iniciar o treinamento e avaliação do modelo:
+python script.py
+Substitua script.py pelo nome do script que contém o código principal do projeto.
+
+Passo 7: Analisar os Resultados
+Após a execução, os resultados serão exibidos ou salvos em arquivos de saída conforme especificado no projeto. Verifique o relatório de classificação, a matriz de confusão e outras análises para avaliar o desempenho do modelo.
+
+Passo 8: Encerrar o Ambiente Virtual
+Após concluir o trabalho, desative o ambiente virtual:
+deactivate
+Problemas e Soluções
+Erro ao instalar dependências: Verifique se você está usando a versão correta do Python e se todos os pacotes listados no requirements.txt estão disponíveis.
+Problema ao executar o script: Certifique-se de que o caminho para o arquivo CSV está correto e que todas as dependências foram instaladas corretamente.
+Se você encontrar outros problemas ou precisar de ajuda adicional, consulte a seção Issues no GitHub ou entre em contato com os mantenedores do projeto.
+
+
