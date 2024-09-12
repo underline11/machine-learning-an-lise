@@ -1,0 +1,48 @@
+# Ignorar arquivos e pastas relacionados a ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+.venv/
+
+# Ignorar arquivos de cache e configurações do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Ignorar arquivos de cache de notebooks Jupyter
+.ipynb_checkpoints/
+
+# Ignorar pastas de configuração e caches locais
+.idea/
+.vscode/
+*.DS_Store
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.out
+
+# Ignorar arquivos de pacotes e distribuições Python
+*.egg-info/
+dist/
+build/
+
+# Ignorar dados grandes ou temporários que não devem ir para o Git
+data/raw/
+data/processed/
+data/external/
+
+# Ignorar arquivos de saídas de notebooks
+notebooks/*.html
+notebooks/*.pdf
+notebooks/*.png
+
+# Ignorar arquivos gerados por ferramentas de desenvolvimento
+*.coverage
+.coverage.*
+
+# Ignorar arquivos de backup
+*.bak
