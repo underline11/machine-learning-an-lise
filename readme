@@ -47,8 +47,4 @@ Os dados são fornecidos em um arquivo CSV acessível através do Google Drive.
 - Palavras mais importantes para a classificação de cada categoria
 - Avaliação da capacidade de generalização do modelo para novos dados
 
-## Executando o Projeto
 
-1. **Clonar o Repositório**:
-   ```bash
-   git clone https://github.com/usuario/repo.git
